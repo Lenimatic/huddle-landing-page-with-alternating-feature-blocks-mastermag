@@ -1,0 +1,37 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
+@import url(https://fonts.google.com/specimen/Open+Sans);
+
+
+:root {
+    --paleCyan: hsl(193, 100%, 96%);
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --GrayishBlue: hsl(208, 11%, 55%);
+    --Pink: hsl(322, 100%, 66%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
