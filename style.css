@@ -14,11 +14,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Open+sans', sans-serif;
 }
 
 body {
-    height: 100vh;
-    
+    height: 100vh;    
 }
 
 
@@ -43,14 +43,51 @@ nav .logo {
     height: 2rem;
 }
 
+#try--free {
+    padding: 5px 38px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 10px 23px -12px rgba(0,0,0,0.75);
+    background-color: white;
+    cursor: pointer;
+}
+
 .top-image {
     width: 35rem;
     height: 25rem;
+    margin-left: 10rem;
 }
 
 .hero-area {
     display: flex;
     padding: 2rem 4rem;
+}
+
+.heroheader {
+    font-size: 3rem;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 35rem;
+    line-height: 70px;
+}
+
+.hero-area p {
+    font-size: 1.6rem;
+    width: 40rem;
+    margin-bottom: 30px;
+}
+
+#get_started {
+    padding: 15px 45px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 10px 23px -12px rgba(0,0,0,0.75);
+    background-color: var(--Pink);
+    color: white;
+    cursor: pointer;
+
 }
 
 
@@ -59,11 +96,6 @@ nav .logo {
 /* Middle Section */
 
 
-.box-image {
-    width: 13rem;
-    height: 10rem;
-}
-
 .three-boxes-sec {
     display: flex;
     flex-direction: column;
@@ -71,14 +103,28 @@ nav .logo {
     margin-top: 8rem;
 }
 
+.box-image {
+    width: 13rem;
+    height: 10rem;
+}
+
 .mid-boxes {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     box-shadow: 10px 10px 23px -12px rgba(0,0,0,0.75);
     height: 15rem;
     margin-left: 4rem;
     margin-right: 4rem;
     border-radius: 0.5rem;
+    padding-left: 90px;
+    padding-right: 20px;
+}
+
+.fst-box p {
+    color: var(--GrayishBlue);
+    width: 35rem;
+    margin-top: 20px;
 }
 
 
@@ -87,13 +133,32 @@ nav .logo {
 
 
 .bottom-box {
-    box-shadow: 10px 10px 23px -12px rgba(0,0,0,0.75);
-    height: 10rem;
-    width: 32rem;
+    position: relative;
+    left: 30rem;
+    top: 11rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 10px 10px 23px -12px rgba(0,0,0,0.75); 
+    height: 14rem;
+    width: 38rem;
     border-radius: 0.5rem;
-    margin-top: 5rem;
-    margin-left: 30rem;
-    margin-right: 10rem;
+    background-color: white;
+    
+      
+}
+
+.bottom-box button {
+    padding: 15px 45px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 10px 23px -12px rgba(0,0,0,0.75);
+    background-color: var(--Pink);
+    color: white;
+    cursor: pointer;
 }
 
 
@@ -101,23 +166,44 @@ nav .logo {
 /* Footer Start */
 
 footer {
-    background-color: var(--VeryDarkCyan);
+    background-color: hsl(192, 100%, 9%);
     color: white;
-    height: 15rem;
+    margin-top: 8rem;
+    padding: 2rem 4rem;
+}
+
+.footerlogo {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+.footer-info {
+    display: flex;
+    gap: 9rem;    
+}
+
+.footer1 li img {
+    margin-right: 1rem;
+       
+}
+
+footer div ul {
+    list-style: none;
+    line-height: 2.5rem;
 }
 
 
-
-
-
-
-
-
+.social {
+    width: 1.5rem;
+    height: 1.5rem;
+}
 
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: right; 
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
-
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
